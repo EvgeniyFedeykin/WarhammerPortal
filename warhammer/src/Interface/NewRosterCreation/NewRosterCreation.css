@@ -1,0 +1,39 @@
+.RosterEditing {
+    position: relative;
+}
+
+
+.RosterEditing_WorkingArea {
+    height:100%;
+    width: 80%;
+    overflow: auto;
+    
+    position: relative;
+}
+
+.RosterEditing_WorkingArea_Content-appear {
+    opacity: 0.01;   
+}
+
+.RosterEditing_WorkingArea_Content-appear-active {
+    opacity: 1;
+    transition: 0.5s linear;   
+}
+
+.RosterEditing_WorkingArea_Content-enter {
+    opacity: 0.01;   
+}
+
+.RosterEditing_WorkingArea_Content-enter-active {
+    opacity: 1;
+    transition: 0.5s linear;   
+}
+
+.RosterEditing_WorkingArea_Content-leave {
+    opacity: 0.01;   
+}
+
+.RosterEditing_WorkingArea_Content-leave-active {
+    opacity: 1;
+    transition: 0.5s linear;   
+}

@@ -1,0 +1,107 @@
+.UnitSelection__SelectionArea {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+    flex-wrap: nowrap;
+    background-color: white;
+}
+
+.UnitSelection__UnitList {
+   width: 80%;
+   height: 100%;
+   margin: 5px;
+   margin-left: 0px;
+   margin-right: 0px;
+   padding:5px;
+   padding-top: 0px;
+   /*float: left;*/
+   overflow: hidden;
+   border: 1px solid rgb(6, 86, 87);
+   border-radius: 5px;
+   box-shadow: 1px 1px 2px rgb(163, 173, 173);
+   position: relative;
+}
+
+.UnitSelection__RolesList {
+    width: 20%;
+    height: 75%;
+    overflow: hidden;
+    padding:5px;
+    padding-top: 3px;
+    margin:0px;
+}
+
+.UnitSelection__Header {
+    text-align: center;
+    background-color: rgb(6, 86, 87);
+    color: white;
+    vertical-align: middle;
+    padding: 10px;
+    margin: 1px;
+    margin-top: 2px;
+    border: 2px solid rgb(6, 86, 87);
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgb(108, 159, 160);
+    text-shadow: 0px 0px 2px white;
+}
+
+.UnitSelection__ToTopButton {
+    bottom: 6%;
+    background-color: rgb(6, 86, 87);
+    position: fixed;
+    right: 6.5%;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 2px rgb(108, 159, 160);
+    border-color: rgb(6, 86, 87);
+    transition: 0.3s;
+    user-select: none;
+}
+/*
+.UnitSelection__ToTopButton:hover {
+    background-color: rgb(7, 109, 110); 
+    box-shadow: inset 1px 1px 3px 4px rgb(5, 64, 65);
+}
+*/
+.UnitSelection__ToTopButton:active {
+    box-shadow: inset 1px 1px 3px 4px rgb(5, 64, 65);
+}
+
+.UnitSelection__ToTop {
+    margin: auto;
+    width: 50px;
+    height: auto;
+}
+
+.UnitSelection__HideButton {
+    opacity: 0;
+}
+
+.UnitSelection__Component-appear {
+    opacity: 0.01;   
+}
+
+.UnitSelection__Component-appear-active {
+    opacity: 1;
+    transition: 0.5s linear;   
+}
+
+.UnitSelection__Component-enter {
+    opacity: 0.01;   
+}
+
+.UnitSelection__Component-enter-active {
+    opacity: 1;
+    transition: 0.5s linear;   
+}
+
+.UnitSelection__Component-leave {
+    opacity: 0.01;   
+}
+
+.UnitSelection__Component-leave-active {
+    opacity: 1;
+    transition: 0.5s linear;   
+}

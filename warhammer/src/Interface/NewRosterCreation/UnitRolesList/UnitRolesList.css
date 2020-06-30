@@ -1,0 +1,39 @@
+.UnitRolesList__Block{
+    
+    text-align: center;
+    border: 1px solid rgb(6, 86, 87);
+    border-radius: 5px;
+    color: rgb(6, 86, 87);
+    text-decoration-color: rgb(6, 86, 87);
+    box-shadow: 1px 1px 2px rgb(163, 173, 173);
+    margin:2px;
+    background-color: white;
+}
+
+.UnitRolesList__RoleButton {
+    background-color: rgb(6, 86, 87);
+    color: white;
+    font-family: "Times New Roman", fantasy;
+    border: 1px solid rgb(20, 126, 105);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    user-select: none;
+    box-shadow: 1px 1px 2px rgb(108, 159, 160);
+}
+
+.UnitRolesList__RoleButton:hover {
+    background-color: rgb(7, 109, 110);
+    border-color: rgb(6, 86, 87);
+    /*outline: none;
+    background: rgb(6, 86, 87);*/
+    box-shadow: none;
+    transition: 0.3s;
+}
+
+.UnitRolesList__RoleButton:active {
+    box-shadow: inset 0.5px 0.5px 1px 2px rgb(5, 64, 65);
+    border-color: rgb(39, 193, 196);
+    
+    transition: 0.3s;
+}

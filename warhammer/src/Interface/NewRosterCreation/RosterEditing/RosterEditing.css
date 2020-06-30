@@ -1,0 +1,68 @@
+.RosterEditing__Div {
+    margin:5px;
+    margin-top:5px;
+    margin-left:0px;
+    padding:5px;
+    padding-top: 1px;
+    border: 1px solid rgb(6, 86, 87);
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgb(163, 173, 173);
+    opacity: 1;
+    transition: 0.5s linear;
+    background-color: white;
+}
+
+.RosterEditing__Div-hidden {
+    opacity: 0.01;
+    margin:5px;
+    margin-top:5px;
+    margin-left:0px;
+    padding:5px;
+    padding-top: 1px;
+    border: 1px solid rgb(6, 86, 87);
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgb(163, 173, 173);
+}
+
+.RosterEditing__Header {
+    
+    color:white;
+    padding:5px;
+    margin-top:2px;
+    margin-bottom:7px;
+    text-align: center;
+    background-color: rgb(6, 86, 87);
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgb(108, 159, 160);
+    text-shadow: 0px 0px 2px white;
+}
+
+.RosterEditing__Label {
+    color: rgb(6, 86, 87);
+    padding:5px;
+    margin:5px;
+    font-size: 20px;
+    text-shadow: 0.1px 0.1px 1px rgb(6, 86, 87);
+}
+
+.RosterEditing__InputField {
+    color: rgb(6, 86, 87);
+    border: 1px solid rgb(6, 86, 87);
+    border-radius: 5px;
+    background-color: white;
+    padding: 8px;
+    margin: 10px;
+    width: 100px;
+    text-align: center;
+    font-size: 16px;
+    box-shadow: 1px 1px 2px rgb(163, 173, 173);
+}
+
+.RosterEditing__NameField {
+    width: 350px;
+    margin-left: 153px;
+}
+
+.RosterEditing__PTSField {
+    margin-left: 75px;
+}

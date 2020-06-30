@@ -1,0 +1,24 @@
+.unitModels__Container {
+    border: 1px solid rgb(6, 41, 34);
+    box-shadow: 1px 1px 2px rgb(163, 173, 173);
+    border-radius:5px;
+    background-color: white;
+}
+
+.unitModels__Title {
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    margin:5px;
+    padding:5px;
+    padding-left: 20px;
+    background-color: rgba(6, 86, 87, 1);
+    border-radius:5px;
+    box-shadow: 1px 1px 2px rgb(108, 159, 160);
+}
+
+.unitModels__List {
+    margin: 0px;
+    padding-left: 20px;
+    margin-bottom: 5px;
+}

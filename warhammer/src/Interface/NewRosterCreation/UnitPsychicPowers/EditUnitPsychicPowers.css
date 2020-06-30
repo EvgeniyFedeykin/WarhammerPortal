@@ -1,0 +1,168 @@
+.EditUnitPsychicPowers {
+    
+    vertical-align: middle;
+    text-align: center;
+    border: 1px solid;
+    margin:0px;
+    margin-bottom: 5px;
+    border-color: rgb(6, 86, 87);
+    border-radius: 5px;
+    padding:0px;
+    box-shadow: 1px 1px 2px rgb(163, 173, 173);
+    background-color: white;
+}
+
+.EditUnitPsychicPowers_Transition-enter {
+    opacity: 0.01;
+}
+
+.EditUnitPsychicPowers_Transition-enter-active {
+    opacity: 1;
+    transition: 0.3s linear;
+}
+
+.EditUnitPsychicPowers_Transition-leave {
+    opacity: 1;
+}
+
+.EditUnitPsychicPowers_Transition-leave-active {
+    opacity: 0.01;
+    transition: 0.3s linear;
+}
+
+.EditUnitPsychicPowers__Header {
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    margin:5px;
+    padding:5px;
+    padding-left: 20px;
+    background-color: rgba(6, 86, 87, 1);
+    border-radius:5px;
+    box-shadow: 1px 1px 2px rgb(108, 159, 160);
+}
+
+.EditUnitPsychicPowers__ChoiceDiv {
+    overflow: hidden;
+    text-align: center;
+    vertical-align: middle;
+    padding:10px;
+    margin:10px;
+    display: inline-block;
+    
+}
+
+.EditUnitPsychicPowers__ButtonsDiv {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+.EditUnitPsychicPowers__Button {
+    display: block;
+    margin: auto;
+    border: 1px solid;
+    border-color: rgb(6, 86, 87);
+    border-radius: 2px;
+    background-color: rgb(6, 86, 87);
+    color: white;
+    margin:2px;
+    box-shadow: 1px 1px 2px rgb(108, 159, 160);
+}
+.EditUnitPsychicPowers__Button:hover {
+    border-color: rgb(39, 193, 196);
+    background-color: rgb(7, 119, 121);
+    transition: 0.2s;
+}
+
+.EditUnitPsychicPowers__Button:active {
+    border-color: rgb(39, 193, 196);
+    background-color: rgb(7, 119, 121);
+    transition: 0.2s;
+    box-shadow: inset 1px 1px 3px 1px rgb(6, 86, 87);
+}
+
+.EditUnitPsychicPowers__Button_Locked {
+    display: block;
+    margin: auto;
+    border: 1px solid;
+    border-color: rgb(6, 86, 87);
+    border-radius: 2px;
+    background-color: rgb(6, 86, 87);
+    color: white;
+    margin:2px;
+    opacity: 0.5;
+}
+
+.EditUnitPsychicPowers__Select,
+.EditUnitPsychicPowers__Select:focus {
+    margin:5px;
+    border: 1px solid;
+    border-color: rgb(6, 86, 87);
+    border-radius: 3px;
+    scrollbar-width: 2px; 
+    box-shadow: none;
+    height:190px;
+    box-shadow: 1px 1px 2px rgb(163, 173, 173);
+    transition: 0.3s linear;
+}
+
+.EditUnitPsychicPowers__Option {
+    transition:0.2s;
+    padding: 5px;
+    color: rgb(6, 86, 87);
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid;
+    border-color: rgb(6, 86, 87);
+    border-radius: 5px;
+    margin-left: 13px;
+    margin-bottom: 2px;
+    margin-top:2px;
+    margin-right: 5px;
+    box-shadow: 1px 1px 2px rgb(163, 173, 173);
+}
+
+.EditUnitPsychicPowers__Option:hover {
+    color: white;
+    background-color: rgb(6, 86, 87);
+    box-shadow: 1px 1px 2px rgb(108, 159, 160);
+    text-shadow: 0px 0px 2px white;
+}
+
+.EditUnitPsychicPowers__Option:active {
+    color: white;
+    background-color: rgb(6, 86, 87);
+    box-shadow: 1px 1px 2px rgb(108, 159, 160);
+    text-shadow: 0px 0px 2px white;
+}
+
+.EditUnitPsychicPowers__Option:checked,
+.EditUnitPsychicPowers__Option:selected,
+.EditUnitPsychicPowers__Option:focus {
+    color: white;
+    background-color: rgb(6, 86, 87);
+    box-shadow: 1px 1px 2px rgb(108, 159, 160);
+    text-shadow: 0px 0px 2px white;
+}
+
+
+
+
+
+.EditUnitPsychicPowers__Label {
+    font-size: 16px;
+    padding:10px;
+    margin:5px;
+    border: 1px solid;
+    border-color: rgb(6, 86, 87);
+    border-radius: 5px;
+    background-color: rgb(6, 86, 87);
+    width: 175px;
+    color: white;
+    box-shadow: 1px 1px 2px rgb(108, 159, 160);
+}
